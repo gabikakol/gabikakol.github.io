@@ -8,14 +8,14 @@
 // Last update : 2016-10-19
 //
 // ------------------------------------------------------------------------------ //
-
+/*
 (function ($) {
 	"use strict";
     
     var bootsnav = {
         initialize: function() {
             this.event();
-            this.hoverDropdown();
+            //this.hoverDropdown();
             this.navbarSticky();
             this.navbarScrollspy();
         },
@@ -99,13 +99,13 @@
             // ------------------------------------------------------------------------------ //
             // Navbar Sidebar 
             // ------------------------------------------------------------------------------ //
-            if( getNav.hasClass("navbar-sidebar")){
+            //if( getNav.hasClass("navbar-sidebar")){
                 // Add Class to body
-                $("body").addClass("wrap-nav-sidebar");
-                getNav.wrapInner("<div class='scroller'></div>");
-            }else{
-                $(".bootsnav").addClass("on");
-            }
+            //    $("body").addClass("wrap-nav-sidebar");
+            //    getNav.wrapInner("<div class='scroller'></div>");
+            //}else{
+            //    $(".bootsnav").addClass("on");
+            //}
             
             // ------------------------------------------------------------------------------ //
             // Menu Center 
@@ -122,28 +122,28 @@
                 $("nav.navbar.bootsnav").find("ul.nav").wrap("<div class='wrap-full-menu'></div>");
                 $(".wrap-full-menu").wrap("<div class='nav-full'></div>");
                 $("ul.nav.navbar-nav").prepend("<li class='close-full-menu'><a href='#'><i class='fa fa-times'></i></a></li>");
-            }else if( getNav.hasClass("navbar-mobile")){
-                getNav.removeClass("no-full");
-            }else{
-                getNav.addClass("no-full");
+           // }else if( getNav.hasClass("navbar-mobile")){
+            //    getNav.removeClass("no-full");
+            //}else{
+            //    getNav.addClass("no-full");
             }
                 
             // ------------------------------------------------------------------------------ //
             // Navbar Mobile
             // ------------------------------------------------------------------------------ //
-            if( getNav.hasClass("navbar-mobile")){
+        //    if( getNav.hasClass("navbar-mobile")){
                 // Add Class to body
-                $('.navbar-collapse').on('shown.bs.collapse', function() {
-                    $("body").addClass("side-right");
-                });
-                $('.navbar-collapse').on('hide.bs.collapse', function() {
-                    $("body").removeClass("side-right");
-                });
+        //        $('.navbar-collapse').on('shown.bs.collapse', function() {
+        //            $("body").addClass("side-right");
+        //        });
+        //        $('.navbar-collapse').on('hide.bs.collapse', function() {
+        //            $("body").removeClass("side-right");
+        //        });
                 
-                $(window).on("resize", function(){
-                    $("body").removeClass("side-right");
-                });
-            }
+        //        $(window).on("resize", function(){
+        //            $("body").removeClass("side-right");
+        //        });
+        //    }
             
             // ------------------------------------------------------------------------------ //
             // Navbar Fixed
@@ -196,18 +196,18 @@
             // ------------------------------------------------------------------------------ //
             // Toggle Side Menu
             // ------------------------------------------------------------------------------ //
-            $("nav.navbar.bootsnav .attr-nav").each(function(){  
-                $("li.side-menu > a", this).on("click", function(e){
-                    e.preventDefault();
-                    $("nav.navbar.bootsnav > .side").toggleClass("on");
-                    $("body").toggleClass("on-side");
-                });
-            });
-            $(".side .close-side").on("click", function(e){
-                e.preventDefault();
-                $("nav.navbar.bootsnav > .side").removeClass("on");
-                $("body").removeClass("on-side");
-            });  
+            //$("nav.navbar.bootsnav .attr-nav").each(function(){  
+            //    $("li.side-menu > a", this).on("click", function(e){
+            //        e.preventDefault();
+            //        $("nav.navbar.bootsnav > .side").toggleClass("on");
+            //        $("body").toggleClass("on-side");
+            //    });
+            //});
+            //$(".side .close-side").on("click", function(e){
+            //    e.preventDefault();
+            //    $("nav.navbar.bootsnav > .side").removeClass("on");
+            //    $("body").removeClass("on-side");
+            //});  
             
             
             
@@ -238,7 +238,7 @@
                 $("nav.navbar.bootsnav ul.nav").find("li.dropdown").off("mouseleave");
                 $("nav.navbar.bootsnav ul.nav").find(".title").off("mouseenter"); 
                 $("nav.navbar.bootsnav ul.nav").off("mouseleave");    
-                $(".navbar-collapse").removeClass("animated");
+            //    $(".navbar-collapse").removeClass("animated");
                 
                 // Enable click event
                 $("nav.navbar.bootsnav ul.nav").each(function(){
@@ -309,8 +309,8 @@
                         $(".navbar-toggle").each(function(){
                             $(".fa", this).removeClass("fa-times");
                             $(".fa", this).addClass("fa-bars");
-                            $(".navbar-collapse").removeClass("in");
-                            $(".navbar-collapse").removeClass("on");
+            //                $(".navbar-collapse").removeClass("in");
+            //                $(".navbar-collapse").removeClass("on");
                         });
                     });
                     
@@ -450,7 +450,7 @@
                 $(".wrap-full-menu").css("height", windowHeight + "px");
                 $(".wrap-full-menu").css("width", windowWidth + "px");
                 
-                $(".navbar-collapse").addClass("animated");
+            //    $(".navbar-collapse").addClass("animated");
                 $(".navbar-toggle").each(function(){
                     var getId = $(this).data("target");
                     $(this).off("click");
@@ -522,13 +522,14 @@
                     $(this).addClass("active");
 
                     // Remove navbar collapse
-                    $(".navbar-collapse").removeClass("in");
+                    //$(".navbar-collapse").removeClass("in");
 
                     // Toggle Bars
                     $(".navbar-toggle").each(function(){
                         $(".fa", this).removeClass("fa-times");
                         $(".fa", this).addClass("fa-bars");
                     });
+                
 
                     // Scroll
                     var scrollTop = $(window).scrollTop(),
@@ -536,19 +537,20 @@
                         $section = $($anchor.attr('href')).offset().top,
                         $window = $(window).width(),
                         $minusDesktop = getNav.data("minus-value-desktop"),
-                        $minusMobile = getNav.data("minus-value-mobile"),
+                        //$minusMobile = getNav.data("minus-value-mobile"),
                         $speed = getNav.data("speed");
                     
                     if( $window > 992 ){
                         var $position = $section - $minusDesktop;
-                    }else{
-                        var $position = $section - $minusMobile;
-                    }             
+                    //}else{
+                    //    var $position = $section - $minusMobile;
+                    //}             
                         
                     $('html, body').stop().animate({
                         scrollTop: $position
                     }, $speed);
                 });
+            }
                 
                 // Activate Navigation
                 var fixSpy = function() {
@@ -584,15 +586,15 @@
         }, 500);
         
         // Toggle Bars
-        $(".navbar-toggle").each(function(){
-            $(".fa", this).removeClass("fa-times");
-            $(".fa", this).addClass("fa-bars");
-            $(this).removeClass("fixed");
-        });        
-        $(".navbar-collapse").removeClass("in");
-        $(".navbar-collapse").removeClass("on");
-        $(".navbar-collapse").removeClass("bounceIn");      
+        //$(".navbar-toggle").each(function(){
+        //    $(".fa", this).removeClass("fa-times");
+        //    $(".fa", this).addClass("fa-bars");
+        //    $(this).removeClass("fixed");
+        //});        
+        //$(".navbar-collapse").removeClass("in");
+        //$(".navbar-collapse").removeClass("on");
+        //$(".navbar-collapse").removeClass("bounceIn");      
     });
     
 }(jQuery));
-
+*/

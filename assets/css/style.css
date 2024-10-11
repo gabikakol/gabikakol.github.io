@@ -93,6 +93,23 @@ html,body{
   opacity: 0;
 }
 
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffff54;
+    /*border-bottom: 2px solid #e5ebf2;
+    border-top: 2px solid #e5ebf2;*/
+    /*font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e5ebf2;
+    text-align:center;*/
+}
+
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
 
@@ -103,6 +120,7 @@ html,body{
     position: relative;
     z-index: 9999;
 }
+/*
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
     background-color: transparent;
@@ -113,10 +131,10 @@ nav.navbar.bootsnav {
     background-color: #535b84f3;
     border-bottom: transparent;
     /*box-shadow: 0 3px 15px rgba(0,0,0,.2);*/
-}
+
 
 /*.nav li*/
-nav.navbar.bootsnav ul.nav > li > a {
+/*nav.navbar.bootsnav ul.nav > li > a {
     font-size: 18px;
     font-weight: 400;
     text-transform:uppercase;
@@ -125,7 +143,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     -ms-transition: 0.3s linear; 
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
-}
+}*
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 35px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 
@@ -136,8 +154,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#000000;}
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+/*.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#000000;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}*/
 /*.nav li*/
 
 
@@ -158,7 +176,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 
 
 /*.navbar-toggle */
-nav.navbar.bootsnav .navbar-toggle {
+/*nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
     border: 1px solid #d92cf9;
@@ -178,10 +196,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../static/yllas5.png)no-repeat;
+    background:url(../static/yllas7.png)no-repeat;
     background-size:cover;
     background-position: center;
-    height:1000px;
+    height:750px;
 }
 .welcome-hero:before{
     position:absolute;
@@ -214,15 +232,40 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about {padding: 50px 0 50px;}
+.about-content {padding-top: 50px;}
 /*.single-about-txt*/
+
+.single-about-txt h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e5ebf2;
+    text-align:left;
+}
+
 .single-about-txt h3 {
     font-size:18px;
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
-    text-align: center;
+    text-align: justify;
+    vertical-align:middle;
+    margin-top:30px;
+    font-weight: 300;
+}
+.single-about-txt h4 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    text-align: justify;
+    vertical-align:middle;
+    margin-top:30px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e5ebf2;
 }
 /*.single-about-txt p {
     font-size: 16px;
@@ -242,20 +285,48 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;/*box-shadow: 0 5px 20px rgba(14,25,80,.30);*/}
-.single-about-img:before {
+.single-about-img{position:relative;}
+    /*box-shadow: 0 5px 20px rgba(14,25,80,.30);*/
+/*.single-about-img:before{
     position:  absolute;
-    top: 0;
-    left:  0;
-    width: 109%;
-    height:  100%;
+    height: 50%;}
     /*background: rgba(31,44,108,.3);*/
+
+
+
+.single-about-img img {
+    width: 85%;
+    border-radius: 8px;
 }
 
-/*.single-about-img img {
-    max-width: 500px;
-    height: 468px;
-}*/
+.contact-txt h3 {
+    font-size:16px;
+    color: #6a708e;
+    text-transform: initial;
+    line-height: 1.8;
+    text-align: left;
+    vertical-align:middle;
+    margin-top:30px;
+    font-weight: 300;
+    margin-left: -40px;
+}
+
+.contact-pic {
+    width: 40%;
+    margin-top:30px;
+    float:left;
+    margin-left:-10px;
+}
+.contact-logo {
+    width: 45%;
+    margin-top:30px;
+    float:left;
+    margin-left:-10px;
+}
+
+.github {
+    margin-left: -30px;
+}
 
 /*.about-list-icon{
     display: flex;
@@ -298,6 +369,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.single-about-img */
 
+/*.header-text-area*/
+
+/
 
 /*-------------------------------------
         5.  Education
@@ -311,7 +385,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 35px 0;
 }
 
-.edu-picture{width:30%;
+.edu-picture{width:25%;
     float: right;
     margin-top:14px;
     margin-right: 80px;
@@ -372,8 +446,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 
 .work {
-    background:  #ffffff;
     padding-top:  50px;
+    padding-bottom:  50px;
+    background-color: #e5ebf279;
 }
 
 .work-horizontal-timeline {
@@ -381,12 +456,20 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 .work-picture{
-    width: 40%;
-    float: right;
-    margin-top: 14px;
-    margin-right: 40px;
-    align-content:middle; 
+    width: 100%;
+    margin-top: 30px;
+
 }
+
+.prof-exp-header h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e5ebf2;
+    text-align:left;
+}
+
 
 
 .job h3{
@@ -394,10 +477,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 20px;
     font-weight: 300;
     color: #636a82;
-    margin-top: 14px;
+    margin-top: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
+.work-text {
+    margin-left: 20px;
+}
+
 .company h3 {
     /*text-align: center;*/
     font-weight: 400;
@@ -433,6 +521,112 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 
+/*-------------------------------------
+        6.  Certification
+--------------------------------------*/
+
+.cert {
+    background:  #ffffff;
+    padding-top:  50px;
+}
+
+.cert-horizontal-timeline {
+    padding: 35px 0;
+}
+
+.cert-picture{
+    width: 40%;
+    float: right;
+    margin-top: 14px;
+    margin-right: 40px;
+    align-content:middle; 
+}
+
+
+.cert-name h3{
+    /*text-align: center;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #636a82;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    /*text-transform: uppercase;*/
+}
+.institution h3 {
+    /*text-align: center;*/
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}   
+
+
+.date h4{
+    /*text-align: center;*/
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*-------------------------------------
+        6.  Volunteering
+--------------------------------------*/
+
+.vol {
+    background:  #ffffff;
+    padding-top:  50px;
+}
+
+.vol-horizontal-timeline {
+    padding: 35px 0;
+}
+
+.vol-picture{
+    width: 45%;
+    float: right;
+    margin-top: 14px;
+    margin-right: 40px;
+    align-content:middle; 
+}
+
+
+.name h3{
+    /*text-align: center;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #636a82;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.position h3 {
+    /*text-align: center;*/
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}   
+
+
+.date h4{
+    /*text-align: center;*/
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tasks h3{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.tasks li{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 5px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 
 /*-------------------------------------
         6.  Skills
@@ -442,15 +636,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
-.section-heading h2 {
-    font-size: 24px;
-    font-weight: 600;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background-color: #e5ebf254;
-    /*border-bottom: 2px solid #e5ebf2;
-    border-top: 2px solid #e5ebf2;*/
-}
+
 .single-progress-txt {
     display: flex;
 }
@@ -666,7 +852,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
 }
 
 .portfolio-content {padding-top: 100px;}

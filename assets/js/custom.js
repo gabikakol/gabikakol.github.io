@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	"use strict";
     
         /*==================================
@@ -18,7 +18,7 @@ $(document).ready(function(){
 ======================================*/
 
     // 1. Scroll To Top 
-		$(window).on('scroll',function () {
+	/*	$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 600) {
 				$('.return-to-top').fadeIn();
 			} else {
@@ -50,7 +50,7 @@ $(document).ready(function(){
 			}, 1200,'easeInOutExpo');
 		});
 		
-		$('body').scrollspy({
+	//	$('body').scrollspy({
 			target:'.navbar-collapse',
 			offset:0
 		});
@@ -122,4 +122,4 @@ $(document).ready(function(){
 		
 
 });	
-	
+*/
