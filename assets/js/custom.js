@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
 	"use strict";
     
         /*==================================
@@ -18,7 +18,7 @@
 ======================================*/
 
     // 1. Scroll To Top 
-	/*	$(window).on('scroll',function () {
+		$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 600) {
 				$('.return-to-top').fadeIn();
 			} else {
@@ -50,7 +50,7 @@
 			}, 1200,'easeInOutExpo');
 		});
 		
-	//	$('body').scrollspy({
+		$('body').scrollspy({
 			target:'.navbar-collapse',
 			offset:0
 		});
@@ -114,12 +114,21 @@
     // 5. welcome animation support
 
 
+	$(window).load(function(){
+		$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
+		$(".header-text2 h2,.header-text p").removeClass("animated fadeInDown").css({'opacity':'0'});
+		$(".header-text h3,.header-text p").removeClass("animated fadeInDown").css({'opacity':'0'});
+	});
 
         $(window).load(function(){
         	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
             $(".header-text2 h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
-        });
-		
+			setTimeout(function() {
+				$(".header-text h3,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
+			}, 800); // 1000 milliseconds = 1 second
 
-});	
-*/
+        });
+
+
+
+});
