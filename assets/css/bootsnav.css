@@ -508,7 +508,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 /* Navbar Responsive
 =================================*/
-@media (min-width: 1024px) and (max-width:1400px) {
+@media (min-width: 1024px) and (max-width:1200px) {
     body.wrap-nav-sidebar .wrapper .container{
         width: 100%;
         padding-left: 30px;
@@ -992,7 +992,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1201px) {
     /* Navbar Responsive
     =================================*/ 
     nav.navbar.bootsnav .navbar-brand    {
@@ -1022,7 +1022,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.no-full .navbar-collapse{
-        max-height: 350px;
+        max-height: 180px;
         overflow-y: auto !important;
     }
     
@@ -1035,6 +1035,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav .navbar-nav {
+        background-color: #686f92;
         float: none !important;
         padding-left: 30px;
         padding-right: 30px;
@@ -1060,9 +1061,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav .navbar-nav > li > a{
         display: block;
         width: 100%;
-        border-bottom: solid 1px #e0e0e0;
+        /*border-bottom: solid 1px #e0e0e0;*/
         padding: 10px 0;
-        border-top: solid 1px #e0e0e0;
+        /*border-top: solid 1px #e0e0e0;*/
         margin-bottom: -1px;
     }
     
@@ -1071,7 +1072,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav ul.navbar-nav.navbar-left > li:last-child > ul.dropdown-menu{
-        border-bottom: solid 1px #e0e0e0;
+        border-bottom: none/*solid 1px #e0e0e0*/;
     }
     
     nav.navbar.bootsnav ul.nav li.dropdown li a.dropdown-toggle{
@@ -1079,6 +1080,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         position: relative;
         display: block;
         width: 100%;
+        
     }
     
     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu{
@@ -1102,7 +1104,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu  > li > a{
         display: block;
         width: 100%;
-        border-bottom: solid 1px #e0e0e0;
+        /*border-bottom: solid 1px #e0e0e0;*/
         padding: 10px 0;
         color: #6f6f6f;
     }
@@ -1138,14 +1140,14 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         letter-spacing: 0px;
         margin-bottom: 0;
         cursor: pointer;
-        border-bottom: solid 1px #e0e0e0;
+        /*border-bottom: solid 1px #e0e0e0;*/
         color: #6f6f6f;
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a{
         display: block;
         width: 100%;
-        border-bottom: solid 1px #e0e0e0;
+        /*border-bottom: solid 1px #e0e0e0;*/
         padding: 8px 0;
     }
     
@@ -1164,7 +1166,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on:last-child .title{
-        border-bottom: solid 1px #e0e0e0;
+        border-bottom: none/*solid 1px #e0e0e0;*/
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu:last-child ul.menu-col li:last-child a{

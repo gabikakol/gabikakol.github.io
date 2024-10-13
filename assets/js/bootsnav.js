@@ -228,7 +228,7 @@
                 getIn = getNav.find("ul.nav").data("in"),
                 getOut = getNav.find("ul.nav").data("out");
             
-            if( getWindow < 991 ){
+            if( getWindow < 1200 ){
                 
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", "auto");
@@ -331,7 +331,7 @@
                     });
                 });
 
-            }else if( getWindow > 991 ){
+            }else if( getWindow > 1200 ){
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", getHeight + "px");
                 
@@ -539,7 +539,7 @@
                         $minusMobile = getNav.data("minus-value-mobile"),
                         $speed = getNav.data("speed");
                     
-                    if( $window > 992 ){
+                    if( $window > 1201 ){
                         var $position = $section - $minusDesktop;
                     }else{
                         var $position = $section - $minusMobile;
