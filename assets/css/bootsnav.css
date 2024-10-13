@@ -508,15 +508,15 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 /* Navbar Responsive
 =================================*/
-@media (min-width: 1024px) and (max-width:1200px) {
+/*@media (min-width: 1024px) and (max-width:1200px) {
     body.wrap-nav-sidebar .wrapper .container{
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
     }
-}
+}*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     /* General Navbar
     =================================*/
     nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
@@ -995,6 +995,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 @media (max-width: 1201px) {
     /* Navbar Responsive
     =================================*/ 
+
     nav.navbar.bootsnav .navbar-brand    {
         display: inline-block;
         float: none !important;

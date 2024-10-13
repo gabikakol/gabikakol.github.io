@@ -228,7 +228,7 @@
                 getIn = getNav.find("ul.nav").data("in"),
                 getOut = getNav.find("ul.nav").data("out");
             
-            if( getWindow < 1200 ){
+            /*if( getWindow < 1200 ){
                 
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", "auto");
@@ -330,8 +330,9 @@
                         cleanOpen();
                     });
                 });
-
-            }else if( getWindow > 1200 ){
+            */
+            /*}else*/ 
+            if( getWindow > 1200 ){
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", getHeight + "px");
                 
