@@ -115,16 +115,16 @@ $(document).ready(function(){
 
 
 	$(window).load(function(){
-		$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
-		$(".header-text2 h2,.header-text p").removeClass("animated fadeInDown").css({'opacity':'0'});
-		$(".header-text h3,.header-text p").removeClass("animated fadeInDown").css({'opacity':'0'});
+		$(".hero-text h1").removeClass("animated fadeInUp").css({'opacity':'0'});
+		$(".hero-text h2").removeClass("animated fadeInDown").css({'opacity':'0'});
+		$(".hero-text h3").removeClass("animated fadeInDown").css({'opacity':'0'});
 	});
 
         $(window).load(function(){
-        	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".header-text2 h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
+        	$(".hero-text h1").addClass("animated fadeInUp").css({'opacity':'0'});
+            $(".hero-text h2").addClass("animated fadeInUp").css({'opacity':'0'});
 			setTimeout(function() {
-				$(".header-text h3,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
+				$(".hero-text h3").addClass("animated fadeInUp").css({'opacity':'0'});
 			}, 800); // 1000 milliseconds = 1 second
 
         });
