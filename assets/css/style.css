@@ -94,22 +94,7 @@ html,body{
   opacity: 0;
 }
 
-.section-heading h2 {
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background-color: #ffffff54;
-    border-bottom: none;
-    border-top: none;
-    /*font-size: 24px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #e5ebf2;
-    text-align:center;*/
-}
+
 
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
@@ -206,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ffffff;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../static/yllas7.png)no-repeat;
+    background:url(../static/yllas8.png)no-repeat;
     background-size:cover;
     background-position: center;
     height:750px;
@@ -405,11 +390,7 @@ padding-bottom: 50px;}
     padding-bottom:  50px;
 }
 
-.volunteering {
-    background:  #ffffff;
-    padding-top:  50px;
-    padding-bottom:  50px;
-}
+
 .education-horizontal-timeline {
     padding: 35px 0;
 }
@@ -486,11 +467,9 @@ padding-bottom: 50px;}
 .work {
     padding-top:  50px;
     padding-bottom:  50px;
-    display: flex;
     position:relative;
-    background-color: #e5ebf279;background:url(../static/backgrounds/mountains.jpeg)no-repeat;
+    background-color: #e5ebf279;background:url(../static/backgrounds/building.png)no-repeat right;
     background-size:cover;
-    background-position: center;
 }
 
 .work:before{
@@ -498,7 +477,7 @@ padding-bottom: 50px;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(255, 255, 255, 0.295);
+    background:rgba(255, 255, 255, 0.719);
     width:100%;
     height:100%;
 }
@@ -524,34 +503,6 @@ padding-bottom: 50px;}
     height:100%;*/
 
 
-.projects {
-    padding-top:  50px;
-    padding-bottom:  50px;
-    display: flex;
-    position:relative;
-    background-color: #e5ebf279;background:url(../static/backgrounds/pink-mountain2.jpeg)no-repeat;
-    background-size:cover;
-    /*background-image: linear-gradient(135deg, #a1c4fd, #c2e9fb);*/
-    /*background: -webkit-linear-gradient(40deg, #87e4b1 60%, #d899ca 60%);
-    background: -o-linear-gradient(40deg, #87e4b1 60%, #d899ca 60%);
-    background: -moz-linear-gradient(40deg, #87e4b1 60%, #d899ca 60%);
-    background: linear-gradient(40deg, #87e4b1 60%, #d899ca 60%);*/
-
-}
-
-.projects:before{
-    position:absolute;
-    content: " ";
-    top:0;
-    left:0;
-    
-    width:100%;
-    height:100%;
-    background: -webkit-linear-gradient(55deg, transparent 57%, #e49dd4 57%);
-    background: -o-linear-gradient(55deg, transparent 57%, #e49dd4 57%);
-    background: -moz-linear-gradient(55deg, transparent 57%, #e49dd4 57%);
-    background: linear-gradient(55deg, transparent 57%, #e49dd4 57%);
-}
 
 
 
@@ -585,7 +536,7 @@ padding-bottom: 50px;}
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 30px;
-    border-bottom: 2px solid #44c47d/*#87e4b1*/ /*#779268*/;
+    border-bottom: 2px solid #636a82;/*#44c47d/*#87e4b1*/ /*#779268*/;
     text-align:left;
 }
 
@@ -942,20 +893,6 @@ padding-bottom: 50px;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
-.profiles {
-    padding:  50px 0 100px;
-
-    background-color: #e5ebf279;background:url(../static/backgrounds/blue-dog.jpg)no-repeat bottom;
-    background-size:cover;
-    /*border:  1px solid #e5ebf2;
-    border-radius: 20px;*/
-    /*background-color: #e5ebf279;*/
-    /*background: #E0EAFC;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
-}
 
 /*.projects {
     padding-top:  50px;
@@ -981,34 +918,34 @@ padding-bottom: 50px;}
     background: linear-gradient(55deg, transparent 57%, #e49dd4 57%);
 }*/
 
-.skill-pic{
+/*.skill-pic{
     width: 30%;
 }
 
 
 .skill-pic2{
     width:100%;
-}
+}*/
 
 
-.skill-name h2{
+/*.skill-name h2{
     color: #ffffff;
     font-weight: 400;
     font-size:18px;
     text-align: center;
    
-}
+}*/
 
-.skills-header h2 {
+/*.skills-header h2 {
     font-size: 20px;
     font-weight: 300;
     padding-bottom: 30px;
     padding-top:30px;
     border-bottom: 2px solid #e5ebf2;
     text-align:left;
-}
+}*/
 
-.skill-desc {
+/*.skill-desc {
     margin-top:-30px;
 
 }
@@ -1020,10 +957,10 @@ padding-bottom: 50px;}
     align-items: top;
     flex-direction: column;
    
-}
+}*/
 
-.profiles-content {padding-top: 100px;border-radius: 20px;}
-.profiles-content .col-sm-3{padding:0;border-radius: 20px;}
+/*.profiles-content {padding-top: 100px;border-radius: 20px;}
+.profiles-content .col-sm-3{padding:0;border-radius: 20px;}*/
 .profile-txt {
     display: flex;
     align-items: center;
@@ -1099,15 +1036,15 @@ padding-bottom: 50px;}
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
-.portfolio {
+/*.portfolio {
     padding-top:  30px;
     padding-bottom: 0px;
-    background-color:#141414;/*#141414*/;
+    background-color:#141414;/*#141414*//*;
 }
 
 .portfolio-content {padding-top: 30px;}
 
-/* ---- .item ---- */
+/* ---- .item ---- 
 .isotope:after {
     content: '';
     display: block;
@@ -1118,7 +1055,7 @@ padding-bottom: 50px;}
     overflow:hidden;
     margin-bottom: 30px;
 }
-/*.item img*/
+/*.item img
 .isotope .item img{
     width:100%;
     height:100%;
@@ -1137,7 +1074,7 @@ padding-bottom: 50px;}
 }/*.item img*/
 
 /*.isotope-overlay*/
-.isotope-overlay{
+/*.isotope-overlay{
     position:absolute;
     height:100%;
     width:100%;
@@ -1361,4 +1298,267 @@ padding-bottom: 50px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+/*========================Thank you=================*/
+
+.section-header h1{
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e5ebf2;
+    text-align:left;
+}
+
+.big-uppercase-thin {
+    font-size: 20px;
+    font-weight: 300;
+    color: #636a82;
+    text-transform: uppercase;
+}
+
+.big-fat {
+    font-weight: 400;
+    font-size: 18px;
+    color: #43485c;
+}
+
+.medium-thin{
+    font-weight: 300;
+    font-size: 16px;
+    color:#43485c;
+
+}
+
+.medium-fat{
+    font-weight: 400;
+    font-size: 16px;
+    color:#43485c;
+
+}
+
+.small-thin{
+    font-weight: 300;
+    font-size: 14px;
+    color:#43485c;
+}
+
+.small-fat{
+    font-weight: 400;
+    font-size: 14px;
+    color:#43485c;
+}
+
+/*PROJECTS*/
+
+.projects {
+    padding-top:  50px;
+    padding-bottom: 20px;
+    position:relative;
+    background-color: #e5ebf279;background:url(../static/backgrounds/alps2.JPEG)no-repeat bottom;
+    background-size:cover;
+}
+
+.projects:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;    
+    width:100%;
+    height:100%;
+    background: -webkit-linear-gradient(70deg, #ffffff7a 65%, #e099d0 65%);
+    background: -o-linear-gradient(70deg, #ffffff7a 65%, #e099d0 65%);
+    background: -moz-linear-gradient(70deg, #ffffff7a 65%, #e099d0 65%);
+    background: linear-gradient(70deg, #ffffff7a 65%, #e099d0 65%);
+}
+
+.project-button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+    width: 200px;
+    margin-bottom: 10px;
+    background: transparent ;
+    border: 1px solid #43485c;;
+    cursor:pointer;
+     -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.project-button:hover{
+    background: #43485c;
+}
+.project-button a{
+    color: #43485c;
+}
+
+.project-button:hover a{
+    color: rgb(255, 255, 255);
+}
+
+.project-title{
+    padding-top:30px;
+}
+
+.project-description{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.project-picture{
+    height:700px;
+    width:133%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-picture img {
+    height:auto;
+    width:100%;
+    
+}
+
+
+/*VOLUNTEERING*/
+
+.volunteering {
+    background:  #ffffff;
+    padding-top:70px;
+    padding-bottom:30px;
+}
+
+.vol-pic {
+    height:425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vol-pic img{
+    margin-top:-50px;
+}
+
+.vol-name {
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+.vol-position{
+    padding-top:10px;
+}
+
+.vol-description{
+    padding-top:30px;
+    text-align: justify;
+}
+
+/*SKILLS*/
+
+.skills {
+    padding:  70px 0 100px;
+    background-color: #e5ebf279;background:url(../static/backgrounds/blue-dog.jpg)no-repeat bottom;
+    background-size:cover;
+}
+
+.skills-row{
+    padding-top:20px;
+}
+
+.skill-pic{
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-pic img{
+    width: 50px;
+    float:middle;
+}
+
+.skill-name{
+    color: #636a82;
+    font-weight: 400;
+    font-size:18px;
+    text-align:center;
+    padding-top: 20px;
+}
+
+
+/*GALLERY*/
+
+.gallery {
+    padding-top:  30px;
+    padding-bottom: 0px;
+    background-color:#141414;
+}
+
+.gallery-content {
+    padding-top: 30px;
+}
+
+.isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.isotope .item {
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 30px;
+}
+
+.isotope .item img{
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.pic-small img{
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+.pic-medium img{
+    width: 360px;
+    height: 250px;
+    object-fit:cover;
+    overflow:hidden;
+}
+
+.pic-big img{
+    width: 360px;
+    height: 700px;
+    object-fit:cover;
+    overflow:hidden;
+}
+
+.isotope .item:hover  img{
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+/* FOOTER*/
+
+.footer{
+    background-color:#141414;
+}
+
+.hm-footer-copyright p{
+    color: #d4d4d4;
+    padding: 38px 0;
+}
+
+
+
