@@ -1813,4 +1813,8 @@ nav.navbar.bootsnav .navbar-toggle i{
     padding: 38px 0;
 }
 
+@keyframes example {
+    0%   {bottom:0px;}
+    100%  {bottom:7px;}
+}
 
