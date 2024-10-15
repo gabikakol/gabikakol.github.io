@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	"use strict";
     
-        /*==================================
+/*==================================
 * Author        : "ThemeSine"
 * Template Name : Khanas HTML Template
 * Version       : 1.0
@@ -115,16 +115,16 @@ $(document).ready(function(){
 
 
 	$(window).load(function(){
-		$(".hero-text h1").removeClass("animated fadeInUp").css({'opacity':'0'});
-		$(".hero-text h2").removeClass("animated fadeInDown").css({'opacity':'0'});
-		$(".hero-text h3").removeClass("animated fadeInDown").css({'opacity':'0'});
+		$(".hero-text h1").removeClass("animated fadeInRight").css({'opacity':'0'});
+		$(".hero-text h2").removeClass("animated fadeInLeft").css({'opacity':'0'});
+		$(".hero-text h3").removeClass("animated fadeIn").css({'opacity':'0'});
 	});
 
         $(window).load(function(){
-        	$(".hero-text h1").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".hero-text h2").addClass("animated fadeInUp").css({'opacity':'0'});
+        	$(".hero-text h1").addClass("animated fadeInRight").css({'opacity':'0'});
+            $(".hero-text h2").addClass("animated fadeInLeft").css({'opacity':'0'});
 			setTimeout(function() {
-				$(".hero-text h3").addClass("animated fadeInUp").css({'opacity':'0'});
+				$(".hero-text h3").addClass("animated fadeIn").css({'opacity':'0'});
 			}, 800); // 1000 milliseconds = 1 second
 
         });
