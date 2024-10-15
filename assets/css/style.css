@@ -445,6 +445,10 @@ nav.navbar.bootsnav .navbar-toggle i{
     border-radius: 5px;
 }
 
+.wip {
+    width: 320px;
+}
+
 .project-button:hover{
     background: #43485c;
     display:flex;
