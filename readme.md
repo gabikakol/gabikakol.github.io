@@ -1,4 +1,4 @@
-## My Website
+## My website
 
 Repository for my personal website. 
 
