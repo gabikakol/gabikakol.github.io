@@ -65,7 +65,7 @@ html,body{
     font-size: 24px;
     text-transform: uppercase;
     padding-bottom: 30px;
-    /*border-bottom: 2px solid #e5ebf2;*/
+    border-bottom: 2px solid #e5ebf2;
     text-align:left;
 }
 
@@ -239,17 +239,13 @@ nav.navbar.bootsnav .navbar-toggle i{
     padding-bottom:  50px;
 }
 
-.about-header {
-    border-bottom: 2px solid /*#e5ebf2*/#686f928f/*#4c5aa1*/;
-}
-
 .about-description {
     font-size:18px;
     line-height: 1.8;
     text-align: justify;
     vertical-align:middle;
     font-weight: 300;
-    border-bottom: 2px solid /*#e5ebf2*/#686f928f/*#4c5aa1*/;
+    border-bottom: 2px solid #e5ebf2;
     padding-top:30px;
     padding-bottom:30px;
 }
@@ -278,7 +274,6 @@ nav.navbar.bootsnav .navbar-toggle i{
 
 .contact-link:hover {
     color: #5062bd;
-    text-decoration:none;
 }
 
 .contact-link:active {
@@ -324,10 +319,6 @@ nav.navbar.bootsnav .navbar-toggle i{
 
 }
 
-.work-header {
-    border-bottom: 2px solid #83d8aa;
-}
-
 .work-picture {
     margin-top:60px;
 }
@@ -367,16 +358,6 @@ nav.navbar.bootsnav .navbar-toggle i{
     background:  #ffffff;
     padding-top:  50px;
     padding-bottom:  50px;
-}
-
-.edu-header {
-    border-bottom: 2px solid #d899caf6;
-    border-image: linear-gradient(to right, #686f92, #d899caf6) 1;
-}
-
-.cert-header {
-    border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #686f92, #83d8aa) 1;
 }
 
 .edu-picture {
@@ -443,8 +424,8 @@ nav.navbar.bootsnav .navbar-toggle i{
     background: linear-gradient(60deg, #ffffff7a 69%, #d899caf6 69%);
 }
 
-.projects-header {
-    border-bottom: 2px solid #d899caf6;
+.projects-header h1{
+    border-bottom: 2px groove #43485cc9;
 }
 
 .project-button {
@@ -516,11 +497,6 @@ nav.navbar.bootsnav .navbar-toggle i{
     padding-bottom:50px;
 }
 
-.vol-header {
-    border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #16d4ef, /*#25c3ed,*/ #a1a2f4, #e6a1fb) 1;
-}
-
 .vol-pic {
     display: flex;
     justify-content: center;
@@ -547,14 +523,6 @@ nav.navbar.bootsnav .navbar-toggle i{
     padding:  70px 0 100px;
     background-color: #e5ebf279;background:url(../static/backgrounds/blue-dog.jpg)no-repeat bottom;
     background-size:cover;
-}
-
-.skills-header {
-    border-bottom: 2px solid /*#e5ebf2*/#686f928f/*#4c5aa1*/;
-}
-
-.skills-2-rows {
-    padding-top:60px;
 }
 
 .skills-row{
@@ -647,46 +615,9 @@ nav.navbar.bootsnav .navbar-toggle i{
     background-color:#141414;
 }
 
-.footer-contact-row {
-    padding-top:40px;
-    padding-bottom:50px;
-}
-
-.phone-column {
-    width:260px;
-}
-
-.email-column {
-    width:345px;
-}
-
-.web-column {
-    width:270px;
-}
-
-.footer-contact-pic {
-    display: flex;
-    justify-content: center;;
-}
-
-.footer-contact-pic img{
-    float:middle;
-    width:20px;
-    
-}
-
-.footer-contact-text a{
-    color: #d4d4d4;;
-    font-weight:300;
-    font-size:15px;
-}
-
-.hm-footer-copyright {
-    color:   #d4d4d4;
+.hm-footer-copyright p{
+    color: #d4d4d4;
     padding: 38px 0;
-    font-weight:300;
-    font-size:15px;
-    border-top: 1px solid #ffffff7c;
 }
 
 @keyframes example {

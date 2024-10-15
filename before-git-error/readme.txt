@@ -2,4 +2,6 @@ some description here
 
 todo:
 header border colours, styles
-footer contact icons make white
+contact at the bottom
+
+test
