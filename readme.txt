@@ -1,5 +1,2 @@
-some description here
-
-todo:
-header border colours, styles
-footer contact icons make white
+todo: <br>
+LAYOUT BREAKS WHEN NOT FULL SCREEN....
