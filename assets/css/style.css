@@ -389,7 +389,23 @@ nav.navbar.bootsnav .navbar-toggle i{
     margin-left:15px;
 }
 
+.edu-title {
+    font-size:19px;
+    font-weight:300;
+    padding-top:30px;
+}
 
+.cert-title {
+    font-size:17px;
+    font-weight:300;
+    padding-top:30px;
+}
+
+.cert-place h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 .edu-button {
     margin-top:20px;
