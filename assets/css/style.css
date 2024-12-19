@@ -296,7 +296,7 @@ nav.navbar.bootsnav .navbar-toggle i{
 }
 
 .about-pic img {
-    box-shadow: 16px -16px #44c47ea9, -16px 16px #d899ca;
+    box-shadow: 16px -16px #4fc787c0, -16px 16px #686f92c0;
     width:95%;
 }
 
@@ -318,8 +318,9 @@ nav.navbar.bootsnav .navbar-toggle i{
     left:0;
     width:100%;
     height:100%;
-    background: -webkit-linear-gradient(135deg, transparent 87%, #44c47ecb 87%), 
-                linear-gradient(130deg, #ffffffbe 85%, #44c47eef 85%);
+    /*background: -webkit-linear-gradient(135deg, transparent 87%, #44c47ecb 87%), 
+                linear-gradient(130deg, #ffffffbe 85%, #44c47eef 85%);*/
+    background: #ffffffbe;
     
 
 }
@@ -374,13 +375,15 @@ nav.navbar.bootsnav .navbar-toggle i{
 }
 
 .edu-header {
-    border-bottom: 2px solid #d899caf6;
-    border-image: linear-gradient(to right, #686f92, #d899caf6) 1;
+    border-bottom: 2px solid #686f928f;
+    /*border-bottom: 2px solid #d899caf6;
+    border-image: linear-gradient(to right, #686f92, #d899caf6) 1;*/
 }
 
 .cert-header {
-    border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #686f92, #83d8aa) 1;
+    border-bottom: 2px solid #686f928f;
+    /*border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #686f92, #83d8aa) 1;*/
 }
 
 .edu-picture {
@@ -451,6 +454,7 @@ nav.navbar.bootsnav .navbar-toggle i{
     position:relative;
     background-color: #e5ebf279;background:url(../static/backgrounds/alps4.JPEG)no-repeat bottom;
     background-size:cover;
+    /*background-color: #3c3c3ce7;*/
 }
 
 .projects:before{
@@ -460,11 +464,12 @@ nav.navbar.bootsnav .navbar-toggle i{
     left:0;    
     width:100%;
     height:100%;
-    background: linear-gradient(60deg, #ffffff7a 69%, #d899caf6 69%);
+    /*background: linear-gradient(60deg, #ffffff7a 79%, #d899caf6 79%);*/
+    background: #ffffffb0;
 }
 
 .projects-header {
-    border-bottom: 2px solid #d899caf6;
+    border-bottom: 2px solid /*#e5ebf2*/#686f928f/*#4c5aa1*/;
 }
 
 .project-button {
@@ -472,7 +477,6 @@ nav.navbar.bootsnav .navbar-toggle i{
     align-items:center;
     justify-content:center;
     height:40px;
-    width: 200px;
     background: transparent ;
     border: .5px solid #43485c;;
     cursor:pointer;
@@ -499,12 +503,13 @@ nav.navbar.bootsnav .navbar-toggle i{
 }
 
 .project-button:hover a{
-    color: rgb(255, 255, 255);
+    color: #ffffffd8;
 	text-decoration:none;
 }
 
 .project-title{
-    padding-top:40px;
+    padding-top:30px;
+    color: #43485c;
 }
 
 .project-description{
@@ -513,20 +518,44 @@ nav.navbar.bootsnav .navbar-toggle i{
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
+    color: #43485c;
+}
+
+.project-more{
+    padding-top:50px;
+    padding-bottom:70px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    color: #43485c;
 }
 
 .project-picture{
+    padding-top:30px;
     display: flex;
     justify-content: center;
     align-items: top;    
 }
 
 .project-picture img {
-    height:auto;
+    height:250px;
     width:auto;
     
 }
 
+.project-picture2{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;    
+}
+
+.project-picture2 img {
+    height:auto;
+    width:300px;
+
+    
+}
 
 /*VOLUNTEERING*/
 
@@ -564,9 +593,21 @@ nav.navbar.bootsnav .navbar-toggle i{
 /*SKILLS*/
 
 .skills {
+    position:relative;
     padding:  70px 0 100px;
-    background-color: #e5ebf279;background:url(../static/backgrounds/blue-dog.jpg)no-repeat bottom;
+    background-color: #e5ebf2ad;background:url(../static/backgrounds/blue-dog.jpg)no-repeat bottom;
     background-size:cover;
+}
+
+.skills:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;    
+    width:100%;
+    height:100%;
+    /*background: linear-gradient(60deg, #ffffff7a 79%, #d899caf6 79%);*/
+    background: #ffffff25;
 }
 
 .skills-header {
